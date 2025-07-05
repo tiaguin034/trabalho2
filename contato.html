@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Curriculo de fulado de tal</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <h1> 📝 Formulario para contato</h1>
+        <nav class="menu">
+            <ul>
+              <li><a href="index.html">inicio</a></li>
+              <li><a href="experiencia.html">experiencia</a></li>
+            </ul>
+        </nav>
+        <br><br>
+        
+        <div class="formulario">
+            
+            <form action="mailto:xaulinmatadordeporco@gmail.com" method="post" enctype="text/plain">
+                <fieldset class="dados">
+                    <label for="nome"><span>👤</span>Nome completo <span>*</span></label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
+                    <label for="email"><span>📧</span>Email <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="contato"><span>📱</span>contato<span>*</span></label>
+                    <input type="text" id="contato" name="contato" required>
+                    <br>
+                </fieldset>
+                
+                <hr>
+                
+                <fieldset class="escolha">
+                    <div>
+                        <h2>Você é um recrutador??</h2>
+                        <label for="sim ou não"><span><strong> OBRIGATORIO *</strong></span></label>
+                        <select id="sim ou não" name="sim ou não" required>
+                            <option value="sim">sim</option>
+                            <option value="não">não</option>
+                        </select>
+                    </div>
+                </fieldset>
+                
+                <hr>
+
+                <fieldset class="mensagem">
+                    <div>
+                        <label for="mensagem"><span>💬</span>mensagem<span>*</span></label><br>
+                        <textarea id="mensagem" name="mensagem" placeholder="mensagem..." required></textarea>
+                    </div>
+                </fieldset>
+                
+                <hr>
+                
+                <div class="botao">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        
+        <hr>
+        
+    
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Xaulim da Silva. Todos os textos feitos por IA.</p>
+    </footer>
+</body>
+
+</html>
